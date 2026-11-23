@@ -1,0 +1,158 @@
+{
+    "baseline_ce": {
+        "per_seed": {
+            "42": {
+                "accuracy": 0.8964,
+                "macro_f1": 0.7477,
+                "minority_precision": 0.5289,
+                "minority_recall": 0.5818,
+                "minority_f1": 0.5541
+            },
+            "100": {
+                "accuracy": 0.8934,
+                "macro_f1": 0.7374,
+                "minority_precision": 0.5169,
+                "minority_recall": 0.5545,
+                "minority_f1": 0.5351
+            },
+            "2024": {
+                "accuracy": 0.9034,
+                "macro_f1": 0.7507,
+                "minority_precision": 0.566,
+                "minority_recall": 0.5455,
+                "minority_f1": 0.5556
+            }
+        },
+        "aggregated": {
+            "accuracy": {
+                "mean": 0.8977,
+                "std": 0.0042,
+                "str": "0.8977 ± 0.0042"
+            },
+            "macro_f1": {
+                "mean": 0.7453,
+                "std": 0.0057,
+                "str": "0.7453 ± 0.0057"
+            },
+            "minority_precision": {
+                "mean": 0.5373,
+                "std": 0.0209,
+                "str": "0.5373 ± 0.0209"
+            },
+            "minority_recall": {
+                "mean": 0.5606,
+                "std": 0.0154,
+                "str": "0.5606 ± 0.0154"
+            },
+            "minority_f1": {
+                "mean": 0.5483,
+                "std": 0.0093,
+                "str": "0.5483 ± 0.0093"
+            }
+        }
+    },
+    "focal_only": {
+        "per_seed": {
+            "42": {
+                "accuracy": 0.8954,
+                "macro_f1": 0.75,
+                "minority_precision": 0.5238,
+                "minority_recall": 0.6,
+                "minority_f1": 0.5593
+            },
+            "100": {
+                "accuracy": 0.9064,
+                "macro_f1": 0.7633,
+                "minority_precision": 0.5766,
+                "minority_recall": 0.5818,
+                "minority_f1": 0.5792
+            },
+            "2024": {
+                "accuracy": 0.9034,
+                "macro_f1": 0.7547,
+                "minority_precision": 0.5636,
+                "minority_recall": 0.5636,
+                "minority_f1": 0.5636
+            }
+        },
+        "aggregated": {
+            "accuracy": {
+                "mean": 0.9017,
+                "std": 0.0046,
+                "str": "0.9017 ± 0.0046"
+            },
+            "macro_f1": {
+                "mean": 0.756,
+                "std": 0.0055,
+                "str": "0.7560 ± 0.0055"
+            },
+            "minority_precision": {
+                "mean": 0.5547,
+                "std": 0.0225,
+                "str": "0.5547 ± 0.0225"
+            },
+            "minority_recall": {
+                "mean": 0.5818,
+                "std": 0.0149,
+                "str": "0.5818 ± 0.0149"
+            },
+            "minority_f1": {
+                "mean": 0.5674,
+                "std": 0.0085,
+                "str": "0.5674 ± 0.0085"
+            }
+        }
+    },
+    "joint_focal_supcon": {
+        "per_seed": {
+            "42": {
+                "accuracy": 0.8974,
+                "macro_f1": 0.7393,
+                "minority_precision": 0.5364,
+                "minority_recall": 0.5364,
+                "minority_f1": 0.5364
+            },
+            "100": {
+                "accuracy": 0.8944,
+                "macro_f1": 0.7409,
+                "minority_precision": 0.521,
+                "minority_recall": 0.5636,
+                "minority_f1": 0.5415
+            },
+            "2024": {
+                "accuracy": 0.9105,
+                "macro_f1": 0.7446,
+                "minority_precision": 0.6265,
+                "minority_recall": 0.4727,
+                "minority_f1": 0.5389
+            }
+        },
+        "aggregated": {
+            "accuracy": {
+                "mean": 0.9008,
+                "std": 0.007,
+                "str": "0.9008 ± 0.0070"
+            },
+            "macro_f1": {
+                "mean": 0.7416,
+                "std": 0.0022,
+                "str": "0.7416 ± 0.0022"
+            },
+            "minority_precision": {
+                "mean": 0.5613,
+                "std": 0.0465,
+                "str": "0.5613 ± 0.0465"
+            },
+            "minority_recall": {
+                "mean": 0.5242,
+                "std": 0.0381,
+                "str": "0.5242 ± 0.0381"
+            },
+            "minority_f1": {
+                "mean": 0.5389,
+                "std": 0.0021,
+                "str": "0.5389 ± 0.0021"
+            }
+        }
+    }
+}

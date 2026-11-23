@@ -1,0 +1,81 @@
+{
+    "run_id": "focal_only_seed2024",
+    "config": {
+        "experiment_name": "focal_only",
+        "model_name": "vinai/phobert-base-v2",
+        "num_classes": 2,
+        "minority_class": 1,
+        "max_length": 128,
+        "batch_size": 32,
+        "lr": 2e-05,
+        "epochs": 5,
+        "loss_type": "focal",
+        "gamma": 2.0,
+        "seed": 2024
+    },
+    "best_val_macro_f1": 0.7449,
+    "test_metrics": {
+        "accuracy": 0.9034,
+        "macro_f1": 0.7547,
+        "minority_precision": 0.5636,
+        "minority_recall": 0.5636,
+        "minority_f1": 0.5636
+    },
+    "history": [
+        {
+            "epoch": 1,
+            "train_loss": 0.0844,
+            "val_metrics": {
+                "accuracy": 0.8993,
+                "macro_f1": 0.6749,
+                "minority_precision": 0.5862,
+                "minority_recall": 0.3091,
+                "minority_f1": 0.4048
+            }
+        },
+        {
+            "epoch": 2,
+            "train_loss": 0.0572,
+            "val_metrics": {
+                "accuracy": 0.9023,
+                "macro_f1": 0.7449,
+                "minority_precision": 0.5631,
+                "minority_recall": 0.5273,
+                "minority_f1": 0.5446
+            }
+        },
+        {
+            "epoch": 3,
+            "train_loss": 0.0387,
+            "val_metrics": {
+                "accuracy": 0.8953,
+                "macro_f1": 0.7443,
+                "minority_precision": 0.525,
+                "minority_recall": 0.5727,
+                "minority_f1": 0.5478
+            }
+        },
+        {
+            "epoch": 4,
+            "train_loss": 0.0229,
+            "val_metrics": {
+                "accuracy": 0.9134,
+                "macro_f1": 0.7263,
+                "minority_precision": 0.6935,
+                "minority_recall": 0.3909,
+                "minority_f1": 0.5
+            }
+        },
+        {
+            "epoch": 5,
+            "train_loss": 0.0123,
+            "val_metrics": {
+                "accuracy": 0.9013,
+                "macro_f1": 0.73,
+                "minority_precision": 0.5652,
+                "minority_recall": 0.4727,
+                "minority_f1": 0.5149
+            }
+        }
+    ]
+}

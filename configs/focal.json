@@ -1,0 +1,13 @@
+{
+    "experiment_name": "focal_only",
+    "model_name": "vinai/phobert-base-v2",
+    "num_classes": 2,
+    "minority_class": 1,
+    "max_length": 128,
+    "batch_size": 32,
+    "lr": 2e-05,
+    "epochs": 5,
+    "loss_type": "focal",
+    "gamma": 2.0,
+    "seed": 42
+}

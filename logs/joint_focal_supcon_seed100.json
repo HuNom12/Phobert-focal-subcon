@@ -1,0 +1,83 @@
+{
+    "run_id": "joint_focal_supcon_seed100",
+    "config": {
+        "experiment_name": "joint_focal_supcon",
+        "model_name": "vinai/phobert-base-v2",
+        "num_classes": 2,
+        "minority_class": 1,
+        "max_length": 128,
+        "batch_size": 32,
+        "lr": 2e-05,
+        "epochs": 5,
+        "loss_type": "joint_focal_supcon",
+        "gamma": 2.0,
+        "temperature": 0.07,
+        "lambda_supcon": 0.2,
+        "seed": 100
+    },
+    "best_val_macro_f1": 0.721,
+    "test_metrics": {
+        "accuracy": 0.8944,
+        "macro_f1": 0.7409,
+        "minority_precision": 0.521,
+        "minority_recall": 0.5636,
+        "minority_f1": 0.5415
+    },
+    "history": [
+        {
+            "epoch": 1,
+            "train_loss": 0.7931,
+            "val_metrics": {
+                "accuracy": 0.9003,
+                "macro_f1": 0.6495,
+                "minority_precision": 0.6279,
+                "minority_recall": 0.2455,
+                "minority_f1": 0.3529
+            }
+        },
+        {
+            "epoch": 2,
+            "train_loss": 0.7464,
+            "val_metrics": {
+                "accuracy": 0.9003,
+                "macro_f1": 0.6495,
+                "minority_precision": 0.6279,
+                "minority_recall": 0.2455,
+                "minority_f1": 0.3529
+            }
+        },
+        {
+            "epoch": 3,
+            "train_loss": 0.7263,
+            "val_metrics": {
+                "accuracy": 0.9043,
+                "macro_f1": 0.686,
+                "minority_precision": 0.6364,
+                "minority_recall": 0.3182,
+                "minority_f1": 0.4242
+            }
+        },
+        {
+            "epoch": 4,
+            "train_loss": 0.7082,
+            "val_metrics": {
+                "accuracy": 0.8922,
+                "macro_f1": 0.721,
+                "minority_precision": 0.5143,
+                "minority_recall": 0.4909,
+                "minority_f1": 0.5023
+            }
+        },
+        {
+            "epoch": 5,
+            "train_loss": 0.6884,
+            "val_metrics": {
+                "accuracy": 0.8973,
+                "macro_f1": 0.7164,
+                "minority_precision": 0.5444,
+                "minority_recall": 0.4455,
+                "minority_f1": 0.49
+            }
+        }
+    ]
+}

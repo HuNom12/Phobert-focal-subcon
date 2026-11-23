@@ -1,0 +1,416 @@
+{
+    "baseline_ce": {
+        "confusion_matrix": [
+            [
+                827,
+                57
+            ],
+            [
+                46,
+                64
+            ]
+        ],
+        "false_positives_count": 57,
+        "false_negatives_count": 46,
+        "top_false_positives": [
+            {
+                "text": "Chỉ đọc thôi cũng đã thấy sợ rồi chém người . Cướp của rồi còn bắt người , hiếp_dâm nữa . Cái này phải phạt thật nặng để chúng_nó ngồi trong lao thật lâu . Cho xã_hội được bình_yên . Chúng_nó mà ra sớm lại ngựa qen đường củ_khổ lắm",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.9831
+            },
+            {
+                "text": "Với bất_kỳ tổng_thống Mỹ nào khác thì đây là bê_bối_đáng xấu_hổ , có_thể gây tổn_hại rất lớn đến hình_ảnh cũng như sự_nghiệp chính_trị , nhưng với Trump thì ... bình_thường như cân đường hộp sữa !",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.9751
+            },
+            {
+                "text": "Hành_vi của Đi không thuộc trường_hợp giết người do trong trạng tái_tinh_thần bị kích_động mạnh , mà là giết người . Ôi trời , người ta vừa mang súng đến để giết mình ( may không nổ ) gặp tôi cũng sốc_kích_động mạnh , mất suy_nghĩ ấy chứ .",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.9716
+            },
+            {
+                "text": "1 cô gái xinh_đẹp biết chế_biến 9 món ăn và 1 cô gái xấu_xí nhưng biết nấu 10 món ăn , bạn chọn cái nào . Cô gái xinh_đẹp là Hyundai , Kia , Vinfast ...._v.v... và cô gái xấu_xí mình đang muốn nói là Wigoxấu đau_đớn . Thân !",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.9712
+            },
+            {
+                "text": "Dí súng vào người khác bóp cò , đạn ko nổ , ko thuộc trường_hợp có tính côn_đồ ! ? Bó_tay luônĐề_nghị giảm án cho anh Đi",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.9711
+            },
+            {
+                "text": "smartphone gây nghiện kinh_khủng , bây_giờ bước vào một quán cà_phê thấy phần_đông người ta cắm_cúi vào cái điện_thoại . mà suy_ra như bản_thân tôi cứ có thời_gian mà mò cái điện_thoại , xa nó tí cảm_thấy thiếu thiếu . cho_nên là nếu cho các bạn học_sinh sử_dụng liệu các bạn ấy có không bị nghiện cái điện_thoại rồi xao nhãng học_tập không ? khi mà đã được công_khai sử_dụng điện_thoại thì bao_nhiêu trò vui ở trên internet các bạn ấy có cưỡng lại nổi không . chưa kể việc gì cũng có_thể tra trên google thì các bạn ấy sẽ ảo_tưởng sức_mạnh về kiến_thức , cứ tưởng cái gì cũng có_thể tra trên mạng cần gì học thuộc nhưng vào các kì_thi thì sao . các kì thi đâu ai cho sử_dụng điện_thoại . còn nói là cho sử_dụng điện_thoại để tiếp_cận công_nghệ rồi đổi lại rất nhiều việc không_thể kiểm_soát được thì không đáng . các thiết_bị công_nghệ mà học sử_dụng thì cùng lắm 1 tháng là thành_thạo , còn những môn như tin_học thì đã có phòng máy_tính . còn nói là có điện_thoại để phụ_huynh liên_lạc với con thì sau giờ học mở điện_thoại lên là được tại_sao phải cho học_sinh sử_dụng trong tiết_học chứ",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.9707
+            },
+            {
+                "text": "Mấy trò ma_manh sau khi bị khui đã làm các thánh_cuồng xe Đức tỉnh_giấc .",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.9694
+            },
+            {
+                "text": "Mấy xe Nhật_ko chịu thay_đổi tương_lai ko xa sẽ vắng bóng tại Việt_nam vì thị_hiếu và trình_độ con_người và suy_nghĩ người trẻ Việt_Nam bây_giờ khác_ròi . nhất là anh toyota và xe_máy Honda bắt_đầu ngấm đòn",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.9678
+            },
+            {
+                "text": "Tôi thấy cuộc tranh_luận rất hay biden nhắc đến covid tại_sao để lan tỏa đỗ cho trump nhưng chính_trump là người đã ngăn các chuyến bay còn lúc đó biden và pelosi là người chống ngăn các chuyến bay có_vẻ biden_đuối_lý hơn còn 2 đợt tranh_luận nữa xem biden_tấu hài như_thế_nào nữa",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.9647
+            },
+            {
+                "text": "2 cô_giáo này còn quá trẻ mới ra trường 1 năm kinh_nghiệm còn yếu , làm_sao dám chống lại tên côn_đồ này thấy cô_giáo chỉ biết ôm bé cam_chịu ... thấy đáng thương hơn đáng trách .",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.9617
+            }
+        ],
+        "top_false_negatives": [
+            {
+                "text": "rất ngưỡng_mộ ... các ông chồng của cô này",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.0053
+            },
+            {
+                "text": "Gì gì ?_Messi luôn thua_Ronaldo là múi và tuổi nhé !",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.0056
+            },
+            {
+                "text": "Ngay cả động_vật , khi tìm được món ăn ngon_Nó cũng để_dành và nhường cho con . Nhìn gà mẹ và đám gà con , cá mẹ và đàn cá con ...",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.007
+            },
+            {
+                "text": "Fan hàn_chê ghế của wigo , hãy nhìn ghế xe m3 , 4 này đi , cùng một loại cả . Đẳng_cấp của wigo là không phải bàn_cãi , mấy xe m3 , 4 này đã tham_khảo thiết_kế ghế của wigo , có_chăng chỉ tinh_chỉnh chút_ít .",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.0078
+            },
+            {
+                "text": "Thực_sự là anh đã hết_thời , tuổi nghề như_vậy đã là đủ với Mr._Đàm .",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.0078
+            },
+            {
+                "text": "Đề_nghị rút giấy_phép kd , và bồi_thường cho các nạn_nhân , phạt tiền thật nặng , nếu gây tử_vong phải truy_tố",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.008
+            },
+            {
+                "text": "Trong vài năm gần đây Barca như một sân_khấu HÀI",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.0086
+            },
+            {
+                "text": "La_Liga thì không biết sao , chứ hàng_thủ như này ra C1 mấy ông lớn khác rất khoái , lại toang thôi .",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.0091
+            },
+            {
+                "text": "Toàn vạch_đứt thì làm_gì có lỗi sai làn",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.0097
+            },
+            {
+                "text": "Thực_sự bạn này có nhiều điều_kiện chứ giờ nhiều bạn phải giỏi cả tiếng Anh lẫn chuyên_ngành khác mới có chỗ_đứng . Bạn theo con đường này thì việc giỏi nó là điều tất_yếu .",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.011
+            }
+        ]
+    },
+    "focal_only": {
+        "confusion_matrix": [
+            [
+                824,
+                60
+            ],
+            [
+                44,
+                66
+            ]
+        ],
+        "false_positives_count": 60,
+        "false_negatives_count": 44,
+        "top_false_positives": [
+            {
+                "text": "Chỉ đọc thôi cũng đã thấy sợ rồi chém người . Cướp của rồi còn bắt người , hiếp_dâm nữa . Cái này phải phạt thật nặng để chúng_nó ngồi trong lao thật lâu . Cho xã_hội được bình_yên . Chúng_nó mà ra sớm lại ngựa qen đường củ_khổ lắm",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.8078
+            },
+            {
+                "text": "2 ông Sơn_Tùng - Tên bất_hiếu bớt sân si cái đi . Bale về lại đội bóng cũ tìm lại niềm vui_chơi bóng , thế thôi .",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.7941
+            },
+            {
+                "text": "1 cô gái xinh_đẹp biết chế_biến 9 món ăn và 1 cô gái xấu_xí nhưng biết nấu 10 món ăn , bạn chọn cái nào . Cô gái xinh_đẹp là Hyundai , Kia , Vinfast ...._v.v... và cô gái xấu_xí mình đang muốn nói là Wigoxấu đau_đớn . Thân !",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.7902
+            },
+            {
+                "text": "Ghê quá",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.7871
+            },
+            {
+                "text": "Với bất_kỳ tổng_thống Mỹ nào khác thì đây là bê_bối_đáng xấu_hổ , có_thể gây tổn_hại rất lớn đến hình_ảnh cũng như sự_nghiệp chính_trị , nhưng với Trump thì ... bình_thường như cân đường hộp sữa !",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.7788
+            },
+            {
+                "text": "Làm người không muốn lại thích làm ngợm .",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.7761
+            },
+            {
+                "text": "Thật đáng buồn",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.7456
+            },
+            {
+                "text": "Là đại_gia trong hàng xe cao_cấp sang chảnh mà gian_dối ?_Các hãng xe_Đức hết gian_lận khí_thải rồi đến thổi_phồng doanh_số ... người Đức nổi_tiếng về tính chính_xác và kỷ_luật vậy_mà ... khó hiểu thật .",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.7281
+            },
+            {
+                "text": "Mấy đứa này ăn không gọn_gàng . Xác cá_voi bị cạp nham_nhở trông xấu thế . Kkk",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.7278
+            },
+            {
+                "text": "Vậy là xong đời mấy tên chuyên_gieo \" cái_chết trắng \" !",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.7262
+            }
+        ],
+        "top_false_negatives": [
+            {
+                "text": "Ngay cả động_vật , khi tìm được món ăn ngon_Nó cũng để_dành và nhường cho con . Nhìn gà mẹ và đám gà con , cá mẹ và đàn cá con ...",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.075
+            },
+            {
+                "text": "rất ngưỡng_mộ ... các ông chồng của cô này",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.0887
+            },
+            {
+                "text": "Đề_nghị rút giấy_phép kd , và bồi_thường cho các nạn_nhân , phạt tiền thật nặng , nếu gây tử_vong phải truy_tố",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.1093
+            },
+            {
+                "text": "Trong vài năm gần đây Barca như một sân_khấu HÀI",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.1249
+            },
+            {
+                "text": "Toàn vạch_đứt thì làm_gì có lỗi sai làn",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.1556
+            },
+            {
+                "text": "Thực_sự là anh đã hết_thời , tuổi nghề như_vậy đã là đủ với Mr._Đàm .",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.1612
+            },
+            {
+                "text": "Thực_sự bạn này có nhiều điều_kiện chứ giờ nhiều bạn phải giỏi cả tiếng Anh lẫn chuyên_ngành khác mới có chỗ_đứng . Bạn theo con đường này thì việc giỏi nó là điều tất_yếu .",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.1759
+            },
+            {
+                "text": "Gì gì ?_Messi luôn thua_Ronaldo là múi và tuổi nhé !",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.1822
+            },
+            {
+                "text": "Electra thiết_kế tối_giản nhưng vô_cùng đẹp_đẽ và mạnh_mẽ . Thay cho nhà Toy , Alphard thiết_kế cho người ngoài hành_tinh",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.1846
+            },
+            {
+                "text": "Cứ xử mức khung cao nhất của tội nặng nhất",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.1869
+            }
+        ]
+    },
+    "joint_focal_supcon": {
+        "confusion_matrix": [
+            [
+                833,
+                51
+            ],
+            [
+                51,
+                59
+            ]
+        ],
+        "false_positives_count": 51,
+        "false_negatives_count": 51,
+        "top_false_positives": [
+            {
+                "text": "Chỉ đọc thôi cũng đã thấy sợ rồi chém người . Cướp của rồi còn bắt người , hiếp_dâm nữa . Cái này phải phạt thật nặng để chúng_nó ngồi trong lao thật lâu . Cho xã_hội được bình_yên . Chúng_nó mà ra sớm lại ngựa qen đường củ_khổ lắm",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.8195
+            },
+            {
+                "text": "Manh_động , làm loạn an_ninh xã_hội nên có hình_phạt nặng nhất với những thành_phần như_vậy .",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.8127
+            },
+            {
+                "text": "Làm người không muốn lại thích làm ngợm .",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.8
+            },
+            {
+                "text": "Hành_vi của Đi không thuộc trường_hợp giết người do trong trạng tái_tinh_thần bị kích_động mạnh , mà là giết người . Ôi trời , người ta vừa mang súng đến để giết mình ( may không nổ ) gặp tôi cũng sốc_kích_động mạnh , mất suy_nghĩ ấy chứ .",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.7878
+            },
+            {
+                "text": "1 cô gái xinh_đẹp biết chế_biến 9 món ăn và 1 cô gái xấu_xí nhưng biết nấu 10 món ăn , bạn chọn cái nào . Cô gái xinh_đẹp là Hyundai , Kia , Vinfast ...._v.v... và cô gái xấu_xí mình đang muốn nói là Wigoxấu đau_đớn . Thân !",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.7789
+            },
+            {
+                "text": "Với bất_kỳ tổng_thống Mỹ nào khác thì đây là bê_bối_đáng xấu_hổ , có_thể gây tổn_hại rất lớn đến hình_ảnh cũng như sự_nghiệp chính_trị , nhưng với Trump thì ... bình_thường như cân đường hộp sữa !",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.775
+            },
+            {
+                "text": "smartphone gây nghiện kinh_khủng , bây_giờ bước vào một quán cà_phê thấy phần_đông người ta cắm_cúi vào cái điện_thoại . mà suy_ra như bản_thân tôi cứ có thời_gian mà mò cái điện_thoại , xa nó tí cảm_thấy thiếu thiếu . cho_nên là nếu cho các bạn học_sinh sử_dụng liệu các bạn ấy có không bị nghiện cái điện_thoại rồi xao nhãng học_tập không ? khi mà đã được công_khai sử_dụng điện_thoại thì bao_nhiêu trò vui ở trên internet các bạn ấy có cưỡng lại nổi không . chưa kể việc gì cũng có_thể tra trên google thì các bạn ấy sẽ ảo_tưởng sức_mạnh về kiến_thức , cứ tưởng cái gì cũng có_thể tra trên mạng cần gì học thuộc nhưng vào các kì_thi thì sao . các kì thi đâu ai cho sử_dụng điện_thoại . còn nói là cho sử_dụng điện_thoại để tiếp_cận công_nghệ rồi đổi lại rất nhiều việc không_thể kiểm_soát được thì không đáng . các thiết_bị công_nghệ mà học sử_dụng thì cùng lắm 1 tháng là thành_thạo , còn những môn như tin_học thì đã có phòng máy_tính . còn nói là có điện_thoại để phụ_huynh liên_lạc với con thì sau giờ học mở điện_thoại lên là được tại_sao phải cho học_sinh sử_dụng trong tiết_học chứ",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.773
+            },
+            {
+                "text": "2 cô_giáo này còn quá trẻ mới ra trường 1 năm kinh_nghiệm còn yếu , làm_sao dám chống lại tên côn_đồ này thấy cô_giáo chỉ biết ôm bé cam_chịu ... thấy đáng thương hơn đáng trách .",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.7645
+            },
+            {
+                "text": "Phần_lớn truyền_thông Mỹ , trừ Fox_News , đều ghét_Trump nên không ngạc_nhiên họ sẽ ra đòn công_kích Trump . 4 năm trước họ cũng ra_sức nói vậy , cười nhạo_Trump , giờ lại lấy thêm ý_kiến của ...._dân thế_giới !_Nhưng ngay chính người Mỹ lại đi bầu_Trump . Họ biết họ muốn gì , cần gì .",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.7597
+            },
+            {
+                "text": "Bale những năm trước chơi ở Laliga , chê Ngoại_hạng Anh , công_kích bóng_đá Anh ; nay phong_độ xuống_dốc , không được ra sân thi_đấu với Real_Madrid thì quay lại mong_cầu Ngoại_hạng Anh ; Thật_ra Premier_League là giải đấu hấp_dẫn hay nhất hành_tinh , và chẳng có đội bóng nào giữ mãi đỉnh bàng , không như Laliga , Bundesliga . Type người kiêu_căng , ngạo_mạn , khi qua 1 đoạn đường rồi quay lại , liệu có cảm_thấy xấu_hổ chăng ! ?",
+                "true": 0,
+                "pred": 1,
+                "toxic_prob": 0.7447
+            }
+        ],
+        "top_false_negatives": [
+            {
+                "text": "rất ngưỡng_mộ ... các ông chồng của cô này",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.078
+            },
+            {
+                "text": "Gì gì ?_Messi luôn thua_Ronaldo là múi và tuổi nhé !",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.0911
+            },
+            {
+                "text": "Ngay cả động_vật , khi tìm được món ăn ngon_Nó cũng để_dành và nhường cho con . Nhìn gà mẹ và đám gà con , cá mẹ và đàn cá con ...",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.093
+            },
+            {
+                "text": "Đề_nghị rút giấy_phép kd , và bồi_thường cho các nạn_nhân , phạt tiền thật nặng , nếu gây tử_vong phải truy_tố",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.1048
+            },
+            {
+                "text": "Bộ phim này coi vui lắm , vui đây không phải phim_hài mà cái vui nó nhẹ_nhàng đến má tối toàn xem cải_lương , coi phim này xong chuyển sang phim Hàn luôn",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.1091
+            },
+            {
+                "text": "Electra thiết_kế tối_giản nhưng vô_cùng đẹp_đẽ và mạnh_mẽ . Thay cho nhà Toy , Alphard thiết_kế cho người ngoài hành_tinh",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.1153
+            },
+            {
+                "text": "Thực_sự là anh đã hết_thời , tuổi nghề như_vậy đã là đủ với Mr._Đàm .",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.1182
+            },
+            {
+                "text": "Thực_sự bạn này có nhiều điều_kiện chứ giờ nhiều bạn phải giỏi cả tiếng Anh lẫn chuyên_ngành khác mới có chỗ_đứng . Bạn theo con đường này thì việc giỏi nó là điều tất_yếu .",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.121
+            },
+            {
+                "text": "Fan_M28 chuẩn_bị qua kia chê 7 hôi_pen , còn bên này thì khen_pen của 28 là thơm dù bàn thắng vô_thưởng vô_phạt . Ku em Fati đá quá hay 1 mình gánh team . Trận đấu chỉ cần 19 phút là kết_quả thắng_thua đã rõ , chẳng cần ai kia phải thơm_pen của đồng_đội =)))",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.1232
+            },
+            {
+                "text": "Fan hàn_chê ghế của wigo , hãy nhìn ghế xe m3 , 4 này đi , cùng một loại cả . Đẳng_cấp của wigo là không phải bàn_cãi , mấy xe m3 , 4 này đã tham_khảo thiết_kế ghế của wigo , có_chăng chỉ tinh_chỉnh chút_ít .",
+                "true": 1,
+                "pred": 0,
+                "toxic_prob": 0.1241
+            }
+        ]
+    }
+}

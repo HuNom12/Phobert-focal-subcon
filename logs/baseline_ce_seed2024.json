@@ -1,0 +1,80 @@
+{
+    "run_id": "baseline_ce_seed2024",
+    "config": {
+        "experiment_name": "baseline_ce",
+        "model_name": "vinai/phobert-base-v2",
+        "num_classes": 2,
+        "minority_class": 1,
+        "max_length": 128,
+        "batch_size": 32,
+        "lr": 2e-05,
+        "epochs": 5,
+        "loss_type": "ce",
+        "seed": 2024
+    },
+    "best_val_macro_f1": 0.746,
+    "test_metrics": {
+        "accuracy": 0.9034,
+        "macro_f1": 0.7507,
+        "minority_precision": 0.566,
+        "minority_recall": 0.5455,
+        "minority_f1": 0.5556
+    },
+    "history": [
+        {
+            "epoch": 1,
+            "train_loss": 0.3368,
+            "val_metrics": {
+                "accuracy": 0.9043,
+                "macro_f1": 0.6992,
+                "minority_precision": 0.619,
+                "minority_recall": 0.3545,
+                "minority_f1": 0.4509
+            }
+        },
+        {
+            "epoch": 2,
+            "train_loss": 0.2202,
+            "val_metrics": {
+                "accuracy": 0.9003,
+                "macro_f1": 0.726,
+                "minority_precision": 0.5604,
+                "minority_recall": 0.4636,
+                "minority_f1": 0.5075
+            }
+        },
+        {
+            "epoch": 3,
+            "train_loss": 0.1545,
+            "val_metrics": {
+                "accuracy": 0.9043,
+                "macro_f1": 0.746,
+                "minority_precision": 0.5758,
+                "minority_recall": 0.5182,
+                "minority_f1": 0.5455
+            }
+        },
+        {
+            "epoch": 4,
+            "train_loss": 0.101,
+            "val_metrics": {
+                "accuracy": 0.8993,
+                "macro_f1": 0.7062,
+                "minority_precision": 0.5641,
+                "minority_recall": 0.4,
+                "minority_f1": 0.4681
+            }
+        },
+        {
+            "epoch": 5,
+            "train_loss": 0.0631,
+            "val_metrics": {
+                "accuracy": 0.8943,
+                "macro_f1": 0.7262,
+                "minority_precision": 0.5238,
+                "minority_recall": 0.5,
+                "minority_f1": 0.5116
+            }
+        }
+    ]
+}
