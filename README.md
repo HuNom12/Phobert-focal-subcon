@@ -7,10 +7,9 @@
 - `logs/`: Kết quả thực nghiệm dạng JSON theo từng seed.
 - `checkpoints/`: Trọng số mô hình tốt nhất.
 
-@'
 # Enhancing Minority-Class F1 in Text Classification via Joint Focal-Contrastive Representation Loss
 
-Repository for the **CO3133 Deep Learning and Applications** course project[cite: 3]. This work investigates the trade-offs between standard Cross-Entropy, Focal Loss, and a Joint Focal-Supervised Contrastive (Focal-SupCon) objective on the imbalanced Vietnamese Constructive and Toxic Speech Detection (**ViCTSD**) dataset using `vinai/phobert-base-v2`.
+This work investigates the trade-offs between standard Cross-Entropy, Focal Loss, and a Joint Focal-Supervised Contrastive (Focal-SupCon) objective on the imbalanced Vietnamese Constructive and Toxic Speech Detection (**ViCTSD**) dataset using `vinai/phobert-base-v2`.
 
 ## Team Members & Contributions
 **Trần Hữu Nam:** Model architecture (`PhoBERTJointClassifier`), loss implementations (`FocalLoss`, `JointFocalSupConLoss`), ViCTSD preprocessing & stratified splitting, multi-seed ablation runs (3 models × 3 seeds), and error extraction.
@@ -33,16 +32,16 @@ Phobert-focal-subcon/
 │   └── analyze_errors.py     # Confusion matrix plotting & FP/FN extraction
 └── requirements.txt
 ```
-## Setup & Reproduction
-# 1. Install dependencies
+# Setup & Reproduction
+## 1. Install dependencies
 pip install -r requirements.txt
 
-# 2. Prepare dataset (ViCTSD -> deduplicated & word-segmented 8/1/1 split)
+## 2. Prepare dataset (ViCTSD -> deduplicated & word-segmented 8/1/1 split)
 python -m src.split_data
 
-# 3. Run full ablation study (3 models x 3 seeds: 42, 100, 2024)
+## 3. Run full ablation study (3 models x 3 seeds: 42, 100, 2024)
 python -m src.run_ablation
 
-# 4. Generate confusion matrices and qualitative error analysis
+## 4. Generate confusion matrices and qualitative error analysis
 python -m src.analyze_errors
 
